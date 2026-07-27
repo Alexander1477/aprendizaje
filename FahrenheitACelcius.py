@@ -28,7 +28,7 @@ while opcion_origen != 4:
         opcion_destino = int(input("Selecciona la opcion deseada: "))
 
         if opcion_destino == 1:
-            f = c * 9/5 + 32
+            f = (c * 9/5) + 32
             print(f"Fahrenheit: {f}")
             time.sleep(pausa1)
         elif opcion_destino == 2:
@@ -46,11 +46,11 @@ while opcion_origen != 4:
         opcion_destino = int(input("Selecciona la opcion deseada: "))
 
         if opcion_destino == 1:
-            c = f - 32 * 5/9
+            c = (f - 32) * 5/9
             print(f"Celsius: {c}")
             time.sleep(pausa1)
         elif opcion_destino == 2:
-            k = f - 32 * 5/9 + 273.15
+            k = (f - 32) * 5/9 + 273.15
             print(f"Kelvin: {k}")
             time.sleep(pausa1)
 
@@ -68,7 +68,7 @@ while opcion_origen != 4:
             print(f"Celsius: {c}")
             time.sleep(pausa1)
         elif opcion_destino == 2:
-            f = k - 273.15 * 9/5 + 32
+            f = (k - 273.15) * 9/5 + 32
             print(f"Fahrenheit: {f}")
             time.sleep(pausa1)
 
